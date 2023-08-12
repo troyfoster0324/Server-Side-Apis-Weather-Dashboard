@@ -2,7 +2,7 @@ var cityList =$("#city-list");
 var cities = [];
 var key = "fc8bffadcdca6a94d021c093eac22797";
 
-//Format for day
+
 function FormatDay(date){
     var date = new Date();
     console.log(date);
@@ -17,10 +17,10 @@ function FormatDay(date){
 
 
 
-//Calling function init();
+
 init();
 
-//Function init();
+
 function init(){
 
     var storedCities = JSON.parse(localStorage.getItem("cities"));
